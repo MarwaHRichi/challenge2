@@ -15,17 +15,34 @@
         <div>
                <form class=" row flex justify-content-center inscrire">
            <div class="form-group  form-2">
-               <label for="exampleInputEmail1">Nom:</label>
-               <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Saisissez votre nom ici"> <br>
-               <label for="exampleInputPassword1">Prenom:</label>
-               <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Saisissez votre prenom ici">  <br>
-               <label for="exampleInputEmail1">E-mail:</label>
-               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Saisissez votre e-mail ici"> <br>
-               <label for="exampleInputPassword1">Mot de passe:</label>
-               <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Saisissez votre mot de passe ici">  <br>
-               <label for="exampleInputPassword1">Confirmation mot de passe:</label>
-               <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Saisissez votre mot de passe ici">
-               <button class="btn btn-succsses btn-sinscrire mt-3" type="submit">S'inscrire</button>
+               
+              <div>
+                <label for="exampleInputEmail1">Nom:</label>
+                <input type="text" class="form-control" id="nom" placeholder="Saisissez votre nom ici"> <br>
+                <div class="invalid-feedback" id="invalid">le nom est obligatoire</div>
+              </div>
+               <div>
+                <label for="exampleInputPassword1">Prenom:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Saisissez votre prenom ici">  <br>
+                <div class="invalid-feedback">le prenom est obligatoire</div>
+              </div>
+               <div>
+                <label for="exampleInputEmail1">E-mail:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Saisissez votre e-mail ici"> <br>
+                <div class="invalid-feedback">l'adresse mail est obligatoire</div>
+              </div>
+
+               <div>
+                <label for="exampleInputPassword1">Mot de passe:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Saisissez votre mot de passe ici">  <br>
+                <div class="invalid-feedback">le mot de passe est obligatoire</div>
+              </div>
+               <div>
+                <label for="exampleInputPassword1">Confirmation mot de passe:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Saisissez votre mot de passe ici">
+                <div class="invalid-feedback">la confirmation de passe est obligatoire</div>
+             </div>
+               <button class="btn btn-succsses btn-sinscrire mt-3" id="inscrire" type="submit">S'inscrire</button>
            </div>
        </div> 
 </div>
