@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+}
+h3{
+    margin-left: 40px;
+    color: rgb(52, 163, 207);
+    text-align: center;
+}
+.inscrire{
+   /* background-color: white;*/
+    margin-top: 70px;   
+    height: 850px;
+    width: 600px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid rgb(204, 203, 203);*/
+}
+label{
+    width: 500px;
+}
+.btn-sinscrire{
+    width: 550px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
